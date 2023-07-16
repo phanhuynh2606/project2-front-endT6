@@ -13,6 +13,7 @@
 }
 body::selection{
    background-color: var(--color-highlight);
+   position: relative;
 }
 a{
    text-decoration: none;

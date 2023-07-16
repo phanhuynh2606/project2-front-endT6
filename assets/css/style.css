@@ -68,7 +68,14 @@
 .navbar-menu #menu li a:hover {
    color: var(--color-highlight);
 }
-
+.navbar-menu #menu .list-group-item{
+   border: none;
+   display: inline;
+   padding: 0;
+}
+.navbar-menu #menu .list-group-item.active{
+   background: none;
+}
 @media (max-width:991.98px) {
 
    /* Tao menu mobile */
@@ -745,3 +752,19 @@
    color: #fff;
 }
 /* end footer */
+
+/* on up */
+.up{
+   display: none;
+   position: fixed;
+   width:80px;
+   height: 80px;
+   right: -20px;
+   bottom: 10px;
+   transition: all 0.5s ease-in-out 0;
+}
+.up i{
+   font-size: 34px;
+   color: #a759d1;
+}
+/*  */

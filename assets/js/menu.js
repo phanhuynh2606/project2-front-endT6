@@ -7,3 +7,12 @@ menuToggle.addEventListener('click', function() {
   change.classList.toggle("change");
   // narv.classList.toggle("column");
 });
+
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (currentScrollPos > 100) {
+        document.querySelector('.up').style.display = "block";
+    } else {
+        document.querySelector('.up').style.display = "none";
+    }
+}

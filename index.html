@@ -17,9 +17,9 @@
    <link rel="stylesheet" href="./assets/css/base.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
    <!-- navbar -->
-   <div class="header-area">
+   <div class="header-area" id="navbar-example" >
       <div class="container">
          <div class="row">
             <div class="col-xl-12 col-lg-12">
@@ -27,15 +27,17 @@
                   <a href="#" class="inner-logo">
                      <img src="./assets/image/logo.png" alt="">
                   </a>
-                  <ul id="menu" class="nav">
-                     <li><a href="#" class="active">Home</a></li>
-                     <li><a href="#">About</a></li>
-                     <li><a href="#">Work Process</a></li>
-                     <li><a href="#">Testimonials</a></li>
-                     <li><a href="#">Pricing Tables</a></li>
-                     <li><a href="#">Blog Entries</a></li>
-                     <li><a href="#">Contact Us</a></li>
-                  </ul>
+   
+                     <ul id="menu">
+                        <li><a href="#section-home" class="list-group-item list-group-item-action active">Home</a></li>
+                        <li><a href="#section-about" class="list-group-item ">About</a></li>
+                        <li><a href="#section-work-process" class="list-group-item ">Work Process</a></li>
+                        <li><a href="#section-testimonials" class="list-group-item ">Testimonials</a></li>
+                        <li><a href="#section-pricing" class="list-group-item ">Pricing Tables</a></li>
+                        <li><a href="#section-blog" class="list-group-item ">Blog Entries</a></li>
+                        <li><a href="#section-contact" class="list-group-item ">Contact Us</a></li>
+                     </ul>
+   
                   <div class="inner-menu-mobi">
                      <label for="side-menu" class="hamb">
                         <span class="hamb-line"></span>
@@ -48,308 +50,310 @@
    </div>
    <!-- End navbar -->
    <!-- header text -->
-   <div class="section-one">
-      <div class="header-text">
+   <div  id="navbar-example" data-spy="scroll" data-target="#menu" data-offset="0" class="scrollspy-example" method="auto">
+      <div class="section-one" id="section-home">
+         <div class="header-text">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-6 col-lg-8">
+                     <h1>We provide the best <strong>strategy</strong>
+                        <br>
+                        to grow up your <strong>business</strong>
+                     </h1>
+                     <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo for your company at
+                        absolutely free of charge</p>
+                     <a href="#" class="button button-highlight">DISCOVER MORE</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!-- end header text -->
+      <div class="section-two" id="section-about">
+         <div class="container">
+            <div class="row full-item">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div class="inner-item">
+                     <div class="inner-icon">
+                        <img src="./assets/image/featured-item-01.png" alt="">
+                     </div>
+                     <div class="inner-title">
+                        Modern Strategy
+                     </div>
+                     <div class="inner-desc">Customize anything in this template to fit your website needs</div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div class="inner-item">
+                     <div class="inner-icon">
+                        <img src="./assets/image/featured-item-01.png" alt="">
+                     </div>
+                     <div class="inner-title">
+                        Best Relationship
+                     </div>
+                     <div class="inner-desc">Contact us immediately if you have a question in mind</div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div class="inner-item">
+                     <div class="inner-icon">
+                        <img src="./assets/image/featured-item-01.png" alt="">
+                     </div>
+                     <div class="inner-title">
+                        Ultimate Marketing
+                     </div>
+                     <div class="inner-desc">You just need to tell your friends about our free templates</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!-- end section two -->
+      
+      <!-- Section three -->
+      <div class="section-three" id="section-work-process">
+         <div class="container">
+            <div class="row item1">
+               <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 item-img">
+                  <img src="./assets/image/left-image.png" alt="">
+               </div>
+               <div class="col-xl-1 col-lg-1"></div>
+      
+               <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 inner-item">
+                  <div class="box-head">
+                     <div class="inner-title">
+                        Let’s discuss about you project
+                     </div>
+                     <div class="inner-desc">
+                        Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur.
+                        Nam gravida purus non
+                        sapien auctor, ut aliquam magna ullamcorper.
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row item2">
+               <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="box-head">
+                     <div class="inner-title">
+                        We can help you to grow your business
+                     </div>
+                     <div class="inner-desc">
+                        Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi, a bibendum lectus libero vitae
+                        urna. Sed id leo eu
+                        dolor luctus congue sed eget ipsum. Nunc nec luctus libero. Etiam quis dolor elit.
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-1 col-lg-1"></div>
+               <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 item-img">
+                  <img src="./assets/image/right-image.png" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end section three -->
+      
+      <!-- Section four -->
+      <div class="section-four" id="section-testimonials">
+         <div class="inner-wrap">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-6 col-6 mx-auto">
+                     <div class="box-head inner-center">
+                        <div class="inner-title">
+                           Work Process
+                        </div>
+                        <div class="inner-desc">
+                           Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex.
+                           Donec ante
+                           diam.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-12 col-12 my-4"></div>
+                  <div class="col-xl-12 col-lg-12">
+                     <div class="row ">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                           <div class="inner-item flex">
+                              <img src="./assets/image/work-process-item-01.png" alt="">
+                              <div class="inner-name">
+                                 Get Ideas
+                              </div>
+                              <div class="inner-desc">
+                                 Godard pabst prism fam cliche.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                           <div class="inner-item flex">
+                              <img src="./assets/image/work-process-item-01.png" alt="">
+                              <div class="inner-name">
+                                 Get Ideas
+                              </div>
+                              <div class="inner-desc">
+                                 Godard pabst prism fam cliche.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                           <div class="inner-item flex">
+                              <img src="./assets/image/work-process-item-01.png" alt="">
+                              <div class="inner-name">
+                                 Get Ideas
+                              </div>
+                              <div class="inner-desc">
+                                 Godard pabst prism fam cliche.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                           <div class="inner-item flex">
+                              <img src="./assets/image/work-process-item-01.png" alt="">
+                              <div class="inner-name">
+                                 Get Ideas
+                              </div>
+                              <div class="inner-desc">
+                                 Godard pabst prism fam cliche.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                           <div class="inner-item flex">
+                              <img src="./assets/image/work-process-item-01.png" alt="">
+                              <div class="inner-name">
+                                 Get Ideas
+                              </div>
+                              <div class="inner-desc">
+                                 Godard pabst prism fam cliche.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                           <div class="inner-item flex">
+                              <img src="./assets/image/work-process-item-01.png" alt="">
+                              <div class="inner-name">
+                                 Get Ideas
+                              </div>
+                              <div class="inner-desc">
+                                 Godard pabst prism fam cliche.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end section four -->
+      <!-- Section five -->
+      <!-- End section five -->
+      <div class="section-five" >
          <div class="container">
             <div class="row">
-               <div class="col-xl-6 col-lg-8">
-                  <h1>We provide the best <strong>strategy</strong>
-                     <br>
-                     to grow up your <strong>business</strong>
-                  </h1>
-                  <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo for your company at
-                     absolutely free of charge</p>
-                  <a href="#" class="button button-highlight">DISCOVER MORE</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <!-- end header text -->
-   <div class="section-two">
-      <div class="container">
-         <div class="row full-item">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-               <div class="inner-item">
-                  <div class="inner-icon">
-                     <img src="./assets/image/featured-item-01.png" alt="">
-                  </div>
-                  <div class="inner-title">
-                     Modern Strategy
-                  </div>
-                  <div class="inner-desc">Customize anything in this template to fit your website needs</div>
-               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-               <div class="inner-item">
-                  <div class="inner-icon">
-                     <img src="./assets/image/featured-item-01.png" alt="">
-                  </div>
-                  <div class="inner-title">
-                     Best Relationship
-                  </div>
-                  <div class="inner-desc">Contact us immediately if you have a question in mind</div>
-               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-               <div class="inner-item">
-                  <div class="inner-icon">
-                     <img src="./assets/image/featured-item-01.png" alt="">
-                  </div>
-                  <div class="inner-title">
-                     Ultimate Marketing
-                  </div>
-                  <div class="inner-desc">You just need to tell your friends about our free templates</div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <!-- end section two -->
-
-   <!-- Section three -->
-   <div class="section-three">
-      <div class="container">
-         <div class="row item1">
-            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 item-img">
-               <img src="./assets/image/left-image.png" alt="">
-            </div>
-            <div class="col-xl-1 col-lg-1"></div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 inner-item">
-               <div class="box-head">
-                  <div class="inner-title">
-                     Let’s discuss about you project
-                  </div>
-                  <div class="inner-desc">
-                     Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur.
-                     Nam gravida purus non
-                     sapien auctor, ut aliquam magna ullamcorper.
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row item2">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-               <div class="box-head">
-                  <div class="inner-title">
-                     We can help you to grow your business
-                  </div>
-                  <div class="inner-desc">
-                     Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi, a bibendum lectus libero vitae
-                     urna. Sed id leo eu
-                     dolor luctus congue sed eget ipsum. Nunc nec luctus libero. Etiam quis dolor elit.
-                  </div>
-               </div>
-            </div>
-            <div class="col-xl-1 col-lg-1"></div>
-            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 item-img">
-               <img src="./assets/image/right-image.png" alt="">
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- end section three -->
-
-   <!-- Section four -->
-   <div class="section-four">
-      <div class="inner-wrap">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-6 col-6 mx-auto">
+               <div class="col-xl-6 col-lg-6 m-auto">
                   <div class="box-head inner-center">
                      <div class="inner-title">
-                        Work Process
+                        What do they say?
                      </div>
                      <div class="inner-desc">
-                        Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex.
-                        Donec ante
-                        diam.
+                        Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a
+                        turpis. Ut
+                        sagittis lectus
+                        libero.
                      </div>
                   </div>
                </div>
-               <div class="col-xl-12 col-12 my-4"></div>
+      
                <div class="col-xl-12 col-lg-12">
-                  <div class="row ">
-                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                        <div class="inner-item flex">
-                           <img src="./assets/image/work-process-item-01.png" alt="">
-                           <div class="inner-name">
-                              Get Ideas
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="inner-item">
+                           <div class="inner-icon">
+                              <img src="./assets/image/testimonial-icon.png" alt="">
                            </div>
-                           <div class="inner-desc">
-                              Godard pabst prism fam cliche.
+                           <div class="inner-content">
+                              Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci.
+                              Maecenas a finibus odio.
                            </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                        <div class="inner-item flex">
-                           <img src="./assets/image/work-process-item-01.png" alt="">
-                           <div class="inner-name">
-                              Get Ideas
-                           </div>
-                           <div class="inner-desc">
-                              Godard pabst prism fam cliche.
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                        <div class="inner-item flex">
-                           <img src="./assets/image/work-process-item-01.png" alt="">
-                           <div class="inner-name">
-                              Get Ideas
-                           </div>
-                           <div class="inner-desc">
-                              Godard pabst prism fam cliche.
+                           <div class="row inner-people">
+                              <div class="inner-img">
+                                 <svg width="49" height="49" fill="none" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M16.125 6.75c-.184 2.478-2.063 4.5-4.125 4.5-2.063 0-3.945-2.021-4.125-4.5-.188-2.578 1.64-4.5 4.125-4.5 2.484 0 4.312 1.969 4.125 4.5Z">
+                                    </path>
+                                    <path
+                                       d="M12 14.25c-4.078 0-8.217 2.25-8.983 6.497-.092.512.197 1.003.733 1.003h16.5c.536 0 .826-.491.734-1.003C20.217 16.5 16.078 14.25 12 14.25Z">
+                                    </path>
+                                 </svg>
+                              </div>
+                              <div class="inner-infor">
+                                 <div class="inner-name">Catherine Soft</div>
+                                 <div class="inner-postion">Managing Director</div>
+                              </div>
                            </div>
                         </div>
                      </div>
-                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                        <div class="inner-item flex">
-                           <img src="./assets/image/work-process-item-01.png" alt="">
-                           <div class="inner-name">
-                              Get Ideas
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="inner-item">
+                           <div class="inner-icon">
+                              <img src="./assets/image/testimonial-icon.png" alt="">
                            </div>
-                           <div class="inner-desc">
-                              Godard pabst prism fam cliche.
+                           <div class="inner-content">
+                              Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci.
+                              Maecenas a finibus odio.
                            </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                        <div class="inner-item flex">
-                           <img src="./assets/image/work-process-item-01.png" alt="">
-                           <div class="inner-name">
-                              Get Ideas
-                           </div>
-                           <div class="inner-desc">
-                              Godard pabst prism fam cliche.
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                        <div class="inner-item flex">
-                           <img src="./assets/image/work-process-item-01.png" alt="">
-                           <div class="inner-name">
-                              Get Ideas
-                           </div>
-                           <div class="inner-desc">
-                              Godard pabst prism fam cliche.
+                           <div class="row inner-people">
+                              <div class="inner-img">
+                                 <svg width="49" height="49" fill="none" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M16.125 6.75c-.184 2.478-2.063 4.5-4.125 4.5-2.063 0-3.945-2.021-4.125-4.5-.188-2.578 1.64-4.5 4.125-4.5 2.484 0 4.312 1.969 4.125 4.5Z">
+                                    </path>
+                                    <path
+                                       d="M12 14.25c-4.078 0-8.217 2.25-8.983 6.497-.092.512.197 1.003.733 1.003h16.5c.536 0 .826-.491.734-1.003C20.217 16.5 16.078 14.25 12 14.25Z">
+                                    </path>
+                                 </svg>
+                              </div>
+                              <div class="inner-infor">
+                                 <div class="inner-name">Catherine Soft</div>
+                                 <div class="inner-postion">Managing Director</div>
+                              </div>
                            </div>
                         </div>
                      </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- end section four -->
-   <!-- Section five -->
-   <!-- End section five -->
-   <div class="section-five">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-6 col-lg-6 m-auto">
-               <div class="box-head inner-center">
-                  <div class="inner-title">
-                     What do they say?
-                  </div>
-                  <div class="inner-desc">
-                     Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a
-                     turpis. Ut
-                     sagittis lectus
-                     libero.
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-xl-12 col-lg-12">
-               <div class="row">
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <div class="inner-item">
-                        <div class="inner-icon">
-                           <img src="./assets/image/testimonial-icon.png" alt="">
-                        </div>
-                        <div class="inner-content">
-                           Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci.
-                           Maecenas a finibus odio.
-                        </div>
-                        <div class="row inner-people">
-                           <div class="inner-img">
-                              <svg width="49" height="49" fill="none" stroke="currentColor" stroke-linecap="round"
-                                 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M16.125 6.75c-.184 2.478-2.063 4.5-4.125 4.5-2.063 0-3.945-2.021-4.125-4.5-.188-2.578 1.64-4.5 4.125-4.5 2.484 0 4.312 1.969 4.125 4.5Z">
-                                 </path>
-                                 <path
-                                    d="M12 14.25c-4.078 0-8.217 2.25-8.983 6.497-.092.512.197 1.003.733 1.003h16.5c.536 0 .826-.491.734-1.003C20.217 16.5 16.078 14.25 12 14.25Z">
-                                 </path>
-                              </svg>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="inner-item">
+                           <div class="inner-icon">
+                              <img src="./assets/image/testimonial-icon.png" alt="">
                            </div>
-                           <div class="inner-infor">
-                              <div class="inner-name">Catherine Soft</div>
-                              <div class="inner-postion">Managing Director</div>
+                           <div class="inner-content">
+                              Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci.
+                              Maecenas a finibus odio.
                            </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <div class="inner-item">
-                        <div class="inner-icon">
-                           <img src="./assets/image/testimonial-icon.png" alt="">
-                        </div>
-                        <div class="inner-content">
-                           Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci.
-                           Maecenas a finibus odio.
-                        </div>
-                        <div class="row inner-people">
-                           <div class="inner-img">
-                              <svg width="49" height="49" fill="none" stroke="currentColor" stroke-linecap="round"
-                                 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M16.125 6.75c-.184 2.478-2.063 4.5-4.125 4.5-2.063 0-3.945-2.021-4.125-4.5-.188-2.578 1.64-4.5 4.125-4.5 2.484 0 4.312 1.969 4.125 4.5Z">
-                                 </path>
-                                 <path
-                                    d="M12 14.25c-4.078 0-8.217 2.25-8.983 6.497-.092.512.197 1.003.733 1.003h16.5c.536 0 .826-.491.734-1.003C20.217 16.5 16.078 14.25 12 14.25Z">
-                                 </path>
-                              </svg>
-                           </div>
-                           <div class="inner-infor">
-                              <div class="inner-name">Catherine Soft</div>
-                              <div class="inner-postion">Managing Director</div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <div class="inner-item">
-                        <div class="inner-icon">
-                           <img src="./assets/image/testimonial-icon.png" alt="">
-                        </div>
-                        <div class="inner-content">
-                           Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci.
-                           Maecenas a finibus odio.
-                        </div>
-                        <div class="row inner-people">
-                           <div class="inner-img">
-                              <svg width="49" height="49" fill="none" stroke="currentColor" stroke-linecap="round"
-                                 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M16.125 6.75c-.184 2.478-2.063 4.5-4.125 4.5-2.063 0-3.945-2.021-4.125-4.5-.188-2.578 1.64-4.5 4.125-4.5 2.484 0 4.312 1.969 4.125 4.5Z">
-                                 </path>
-                                 <path
-                                    d="M12 14.25c-4.078 0-8.217 2.25-8.983 6.497-.092.512.197 1.003.733 1.003h16.5c.536 0 .826-.491.734-1.003C20.217 16.5 16.078 14.25 12 14.25Z">
-                                 </path>
-                              </svg>
-                           </div>
-                           <div class="inner-infor">
-                              <div class="inner-name">Catherine Soft</div>
-                              <div class="inner-postion">Managing Director</div>
+                           <div class="row inner-people">
+                              <div class="inner-img">
+                                 <svg width="49" height="49" fill="none" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M16.125 6.75c-.184 2.478-2.063 4.5-4.125 4.5-2.063 0-3.945-2.021-4.125-4.5-.188-2.578 1.64-4.5 4.125-4.5 2.484 0 4.312 1.969 4.125 4.5Z">
+                                    </path>
+                                    <path
+                                       d="M12 14.25c-4.078 0-8.217 2.25-8.983 6.497-.092.512.197 1.003.733 1.003h16.5c.536 0 .826-.491.734-1.003C20.217 16.5 16.078 14.25 12 14.25Z">
+                                    </path>
+                                 </svg>
+                              </div>
+                              <div class="inner-infor">
+                                 <div class="inner-name">Catherine Soft</div>
+                                 <div class="inner-postion">Managing Director</div>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -358,262 +362,267 @@
             </div>
          </div>
       </div>
-   </div>
-
-   <!-- section six -->
-   <div class="section-six">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-6 col-lg-6 m-auto">
-               <div class="box-head inner-center">
-                  <div class="inner-title">
-                     Pricing Plans
-                  </div>
-                  <div class="inner-desc">
-                     Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue
-                     risus volutpat.
+      
+      <!-- section six -->
+      <div class="section-six" id="section-pricing">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 m-auto">
+                  <div class="box-head inner-center">
+                     <div class="inner-title">
+                        Pricing Plans
+                     </div>
+                     <div class="inner-desc">
+                        Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue
+                        risus volutpat.
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="col-xl-12 col-lg-12">
-               <div class="row">
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <div class="inner-item">
-                        <div class="inner-level">
-                           Starter
+               <div class="col-xl-12 col-lg-12">
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="inner-item">
+                           <div class="inner-level">
+                              Starter
+                           </div>
+                           <div class="inner-price">
+                              <span class="denot">$</span>
+                              <span class="price">14.50</span>
+                              <span class="day">monthly</span>
+                           </div>
+                           <div class="inner-use">
+                              60 GB space <br>
+                              600 GB transfer <br>
+                              Pro Design Panel <br>
+                              <del>15-minute support <br>
+                                 Unlimited Emails <br>
+                                 24/7 Security
+                              </del>
+                           </div>
+                           <a href="#" class="button button-main">PURCHASE NOW</a>
                         </div>
-                        <div class="inner-price">
-                           <span class="denot">$</span>
-                           <span class="price">14.50</span>
-                           <span class="day">monthly</span>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="inner-item">
+                           <div class="inner-level">
+                              Premium
+                           </div>
+                           <div class="inner-price highlight">
+                              <span class="denot">$</span>
+                              <span class="price">21.50</span>
+                              <span class="day">monthly</span>
+                           </div>
+                           <div class="inner-use">
+                              60 GB space <br>
+                              600 GB transfer <br>
+                              Pro Design Panel <br>
+                              15-minute support <br>
+                              <del>
+                                 Unlimited Emails <br>
+                                 24/7 Security
+                              </del>
+                           </div>
+                           <a href="#" class="button button-main">PURCHASE NOW</a>
                         </div>
-                        <div class="inner-use">
-                           60 GB space <br>
-                           600 GB transfer <br>
-                           Pro Design Panel <br>
-                           <del>15-minute support <br>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="inner-item">
+                           <div class="inner-level">
+                              Advanced
+                           </div>
+                           <div class="inner-price">
+                              <span class="denot">$</span>
+                              <span class="price">42.00</span>
+                              <span class="day">monthly</span>
+                           </div>
+                           <div class="inner-use">
+                              60 GB space <br>
+                              600 GB transfer <br>
+                              Pro Design Panel <br>
+                              15-minute support <br>
                               Unlimited Emails <br>
                               24/7 Security
-                           </del>
-                        </div>
-                        <a href="#" class="button button-main">PURCHASE NOW</a>
-                     </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <div class="inner-item">
-                        <div class="inner-level">
-                           Premium
-                        </div>
-                        <div class="inner-price highlight">
-                           <span class="denot">$</span>
-                           <span class="price">21.50</span>
-                           <span class="day">monthly</span>
-                        </div>
-                        <div class="inner-use">
-                           60 GB space <br>
-                           600 GB transfer <br>
-                           Pro Design Panel <br>
-                           15-minute support <br>
-                           <del>
-                              Unlimited Emails <br>
-                              24/7 Security
-                           </del>
-                        </div>
-                        <a href="#" class="button button-main">PURCHASE NOW</a>
-                     </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <div class="inner-item">
-                        <div class="inner-level">
-                           Advanced
-                        </div>
-                        <div class="inner-price">
-                           <span class="denot">$</span>
-                           <span class="price">42.00</span>
-                           <span class="day">monthly</span>
-                        </div>
-                        <div class="inner-use">
-                           60 GB space <br>
-                           600 GB transfer <br>
-                           Pro Design Panel <br>
-                           15-minute support <br>
-                           Unlimited Emails <br>
-                           24/7 Security
-                        </div>
-                        <a href="#" class="button button-main">PURCHASE NOW</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- End section six -->
-   <!-- section seven -->
-   <div class="section-seven">
-      <div class="container">
-         <div class=" row number__content">
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-               <div class="number__item decor-bottom">
-                  <p class="counter">126</p>
-                  <p>Projects</p>
-               </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-               <div class="number__item decor-top">
-                  <p class="counter">63</p>
-                  <p>Happy Clients</p>
-               </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-               <div class="number__item decor-bottom">
-                  <p class="counter">18</p>
-                  <p>Awards Wins</p>
-               </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-               <div class="number__item">
-                  <p class="counter">27</p>
-                  <p>Countries</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- end section seven -->
-
-   <!-- Section eight -->
-   <div class="section-eight">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-12 mx-auto">
-               <div class="box-head inner-center">
-                  <div class="inner-title">
-                     Blog Entries
-                  </div>
-                  <div class="inner-desc">
-                     Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh.
-                     Cras
-                     maximus venenatis
-                     molestie.
-                  </div>
-               </div>
-            </div>
-            <div class="col-xl-12 col-lg-12">
-               <div class="row inner-item">
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <img src="./assets/image/blog-item-01.png" alt="">
-                     <div class="inner-name">Vivamus ac vehicula dui</div>
-                     <div class="inner-desc">
-                        Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in
-                        sagittis eros. Aliquam
-                        egestas augue.
-                     </div>
-                     <a href="#" class="button button-main">READ MORE</a>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <img src="./assets/image/blog-item-02.png" alt="">
-                     <div class="inner-name">Phasellus convallis augue</div>
-                     <div class="inner-desc">
-                        Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit
-                        venenatis, vel ultrices
-                        sapien mattis.
-                     </div>
-                     <a href="#" class="button button-main">READ MORE</a>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                     <img src="./assets/image/blog-item-03.png" alt="">
-                     <div class="inner-name">Vivamus ac vehicula dui</div>
-                     <div class="inner-desc">
-                        Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod
-                        odio, ut tempus enim varius
-                        eu.
-                     </div>
-                     <a href="#" class="button button-main">READ MORE</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- end Section eight -->
-   <!-- section ten -->
-   <div class="section-ten">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-12 mx-auto">
-               <div class="box-head inner-center">
-                  <div class="inner-title">Talk To Us</div>
-                  <div class="inner-desc">
-                     Maecenas pellentesque ante faucibus lectus vulputate sollicitudin. Cras feugiat hendrerit semper.
-                  </div>
-               </div>
-            </div>
-            <div class="col-xl-12 col-lg-12">
-               <div class="row inner-contact">
-                  <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-12">
-                     <div class="inner-name">Keep in touch</div>
-                     <div class="inner-detail">
-                        110-220 Quisque diam odio, maximus ac consectetur eu, 10260 <br>
-                        auctor non lorem
-                     </div>
-                     <div class="inner-request">
-                        You are NOT allowed to re-distribute Softy Pinko template on any template collection websites.
-                        Thank you.
-                     </div>
-                  </div>
-                  <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12">
-                     <form action="" class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12-col-12">
-                           <div class="form-group">
-                              <input type="text" class="form-control" required placeholder="Full name">
                            </div>
+                           <a href="#" class="button button-main">PURCHASE NOW</a>
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12-col-12">
-                           <div class="form-group">
-                              <input type="email" class="form-control" required placeholder="E-Mail Address">
-                           </div>
-                        </div>
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12-col-12">
-                           <div class="form-group">
-                              <textarea cols="30" class="form-control" rows="10" placeholder="Your Message"></textarea>
-                           </div>
-                        </div>
-                        <div class="col-xl-12 col-lg-12">
-                           <button id="form-submit" class="button button-main" type="submit">SEND MESSAGE</button>
-                        </div>
-                     </form>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
-   <!-- end section ten -->
-
-   <!-- footer -->
-   <div class="footer">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-               <ul class="row social">
-                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                  <li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-               </ul>
+      <!-- End section six -->
+      <!-- section seven -->
+      <div class="section-seven">
+         <div class="container">
+            <div class=" row number__content">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                  <div class="number__item decor-bottom">
+                     <p class="counter">126</p>
+                     <p>Projects</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                  <div class="number__item decor-top">
+                     <p class="counter">63</p>
+                     <p>Happy Clients</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                  <div class="number__item decor-bottom">
+                     <p class="counter">18</p>
+                     <p>Awards Wins</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                  <div class="number__item">
+                     <p class="counter">27</p>
+                     <p>Countries</p>
+                  </div>
+               </div>
             </div>
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-              <div class="inner-content">
-               COPYRIGHT © 2020 SOFTY PINKO COMPANY - DESIGN: TEMPLATEMO
-              </div>
+         </div>
+      </div>
+      <!-- end section seven -->
+      
+      <!-- Section eight -->
+      <div class="section-eight" id="section-blog">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-12 mx-auto">
+                  <div class="box-head inner-center">
+                     <div class="inner-title">
+                        Blog Entries
+                     </div>
+                     <div class="inner-desc">
+                        Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh.
+                        Cras
+                        maximus venenatis
+                        molestie.
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-12 col-lg-12">
+                  <div class="row inner-item">
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <img src="./assets/image/blog-item-01.png" alt="">
+                        <div class="inner-name">Vivamus ac vehicula dui</div>
+                        <div class="inner-desc">
+                           Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in
+                           sagittis eros. Aliquam
+                           egestas augue.
+                        </div>
+                        <a href="#" class="button button-main">READ MORE</a>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <img src="./assets/image/blog-item-02.png" alt="">
+                        <div class="inner-name">Phasellus convallis augue</div>
+                        <div class="inner-desc">
+                           Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit
+                           venenatis, vel ultrices
+                           sapien mattis.
+                        </div>
+                        <a href="#" class="button button-main">READ MORE</a>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <img src="./assets/image/blog-item-03.png" alt="">
+                        <div class="inner-name">Vivamus ac vehicula dui</div>
+                        <div class="inner-desc">
+                           Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod
+                           odio, ut tempus enim varius
+                           eu.
+                        </div>
+                        <a href="#" class="button button-main">READ MORE</a>
+                     </div>
+                  </div>
+               </div>
             </div>
-
+         </div>
+      </div>
+      <!-- end Section eight -->
+      <!-- section ten -->
+      <div class="section-ten" id="section-contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-12 mx-auto">
+                  <div class="box-head inner-center">
+                     <div class="inner-title">Talk To Us</div>
+                     <div class="inner-desc">
+                        Maecenas pellentesque ante faucibus lectus vulputate sollicitudin. Cras feugiat hendrerit semper.
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-12 col-lg-12">
+                  <div class="row inner-contact">
+                     <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-12">
+                        <div class="inner-name">Keep in touch</div>
+                        <div class="inner-detail">
+                           110-220 Quisque diam odio, maximus ac consectetur eu, 10260 <br>
+                           auctor non lorem
+                        </div>
+                        <div class="inner-request">
+                           You are NOT allowed to re-distribute Softy Pinko template on any template collection websites.
+                           Thank you.
+                        </div>
+                     </div>
+                     <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12">
+                        <form action="" class="row">
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12-col-12">
+                              <div class="form-group">
+                                 <input type="text" class="form-control" required placeholder="Full name">
+                              </div>
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12-col-12">
+                              <div class="form-group">
+                                 <input type="email" class="form-control" required placeholder="E-Mail Address">
+                              </div>
+                           </div>
+                           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12-col-12">
+                              <div class="form-group">
+                                 <textarea cols="30" class="form-control" rows="10" placeholder="Your Message"></textarea>
+                              </div>
+                           </div>
+                           <div class="col-xl-12 col-lg-12">
+                              <button id="form-submit" class="button button-main" type="submit">SEND MESSAGE</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end section ten -->
+      
+      <!-- footer -->
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <ul class="row social">
+                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                     <li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+                     <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                  </ul>
+               </div>
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="inner-content">
+                     COPYRIGHT © 2020 SOFTY PINKO COMPANY - DESIGN: TEMPLATEMO
+                  </div>
+               </div>
+      
+            </div>
          </div>
       </div>
    </div>
    <!-- end footer -->
+   <div class="up">
+     <a href="#section-home">
+      <i class="fa-regular fa-circle-up"></i>
+     </a>
+   </div>
    <!-- Js bootstrap -->
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
